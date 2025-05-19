@@ -1,0 +1,10 @@
+# Secrets
+credentials.json
+token.pkl
+
+# Python garbage 
+__pycache__/
+*.pyc
+
+# Virtual env
+mcp/
