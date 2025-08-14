@@ -1,10 +1,10 @@
 # Secrets
-credentials.json
-token.pkl
+backend/credentials.json
+backend/token.pkl
 
 # Python garbage 
-__pycache__/
-*.pyc
+backend/__pycache__/
+backend/**/*.pyc
 
 # Virtual env
-mcp/
+backend/mcp/
