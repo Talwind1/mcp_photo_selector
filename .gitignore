@@ -8,3 +8,4 @@ backend/**/*.pyc
 
 # Virtual env
 backend/mcp/
+.env

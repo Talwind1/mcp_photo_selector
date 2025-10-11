@@ -8,6 +8,10 @@ import requests
 SCOPES = ['https://www.googleapis.com/auth/photoslibrary.readonly']
 
 def get_credentials():
+    CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
+    CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET")
+    REDIRECT_URI = os.getenv("REDIRECT_URI") 
+    print(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
     creds = None
     if os.path.exists('token.pkl'):
         with open('token.pkl', 'rb') as token:
