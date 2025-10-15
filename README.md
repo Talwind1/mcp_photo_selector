@@ -7,8 +7,8 @@
                                                  ▼
                               ┌─────────────────────────────────────────────────────┐
                               │            MCP SERVER (mcp_server.py) 
-                               Received commands from Claude and navigate to " 
-                                 Google Core functions
+                               Receive command from Claude and navigate to 
+                                 Google Core function
                               └──────────────────┬──────────────────────────────────┘
                                                  │
                                       ┌──────────┼──────────┬──────────┐
