@@ -6,7 +6,7 @@ from googleapiclient.discovery import build
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CREDENTIALS_FILE = os.path.join(BASE_DIR, "config", "desktop_credentials.json")
+CREDENTIALS_FILE = os.path.join(BASE_DIR, "config", "credentials.json")
 TOKEN_FILE = os.path.join(BASE_DIR, "token.json")
 SCOPES = ["https://www.googleapis.com/auth/photoslibrary.readonly"]
 
