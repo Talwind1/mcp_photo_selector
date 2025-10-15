@@ -1,11 +1,34 @@
-# Secrets
-backend/credentials.json
-backend/token.pkl
+# Secrets & Authentication
+credentials.json
+desktop_credentials.json
+config/*.json
+token.json
+token.pkl
 
-# Python garbage 
-backend/__pycache__/
-backend/**/*.pyc
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 
-# Virtual env
-backend/mcp/
+# Virtual Environments
+venv/
+env/
+.venv/
 .env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+test_output/
+temp/
